@@ -3,11 +3,21 @@
     <v-toolbar color="#303030" :clipped-left="clipped" app>
       <v-toolbar-title v-text="title" class="pri" />
       <v-spacer />
-      <a href class="link-bar"> <span class="span-bar">1.</span> About </a>
-      <a href class="link-bar"> <span class="span-bar">2.</span> Experience </a>
-      <a href class="link-bar"> <span class="span-bar">3.</span> My work </a>
-      <a href class="link-bar"> <span class="span-bar">4.</span> Contact </a>
-      <v-btn class="btn-bar">Resume</v-btn>
+      <a href class="link-bar">
+        <span class="span-bar">1.</span> About
+      </a>
+      <a href class="link-bar">
+        <span class="span-bar">2.</span> Experience
+      </a>
+      <a href class="link-bar">
+        <span class="span-bar">3.</span> My work
+      </a>
+      <a href class="link-bar">
+        <span class="span-bar">4.</span> Contact
+      </a>
+      <v-btn class="btn-bar">
+        <a style="text-decoration: none; color: #00ed81;" target="_blank" href="/Resume.pdf">Resume</a>
+      </v-btn>
     </v-toolbar>
     <v-content>
       <v-container>
