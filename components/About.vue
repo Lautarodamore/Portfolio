@@ -2,19 +2,19 @@
   <v-layout wrap>
     <v-flex xs12 md7 lg8>
       <h3 data-aos="fade-right" class="fjaqlf">About Me</h3>
-      <p
-        data-aos="fade-right"
-        class="descripcion"
-      >Hello! I'm Lautaro, a student of software engineer based in Buenos Aires, Argentina who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.</p>
       <p data-aos="fade-right" class="descripcion">
-        Shortly after graduating from
+        Hello! I'm Lautaro, a student of software engineer in
         <a
           href="https://www.utn.edu.ar/"
           target="_blank"
           style="text-decoration:  none; color: #00ed81;"
           class="und-effect"
-        >UTN</a> , I joined the engineering team at Upstatement where I work on a wide variety of interesting and meaningful projects on a daily basis.
+        >UTN</a> based in Buenos Aires, Argentina who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, user interfaces with efficient and modern backends.
       </p>
+      <p
+        data-aos="fade-right"
+        class="descripcion"
+      >A year ago I joined the engineering team at Luxsys where I work on a wide variety of interesting and meaningful projects on a daily basis.</p>
       <p
         data-aos="fade-right"
         class="descripcion"
@@ -29,8 +29,8 @@
       </ul>
     </v-flex>
     <v-flex xs12 md5 lg4>
-      <div data-aos="fade-left" style="margin-left: 60px; margin-top:80px;">
-        <img src="~/assets/computer.svg" alt="Avatar" style="max-width: 350px" />
+      <div data-aos="fade-left" class="imgabout">
+        <img src="~/assets/computer.svg" alt="Avatar" style="max-width: 250px" />
       </div>
     </v-flex>
   </v-layout>
@@ -59,38 +59,6 @@
 }
 
 .fjaqlf::after {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 300px;
-  background-color: white;
-  position: relative;
-  top: 0px;
-  margin-left: 20px;
-}
-
-.stypor {
-  position: relative;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  width: 100%;
-  white-space: nowrap;
-  font-size: 32px;
-  margin: 10px 0px 40px;
-}
-
-.stypor::before {
-  content: "3.";
-  margin-right: 10px;
-  font-weight: normal;
-  color: #00ed81;
-  font-size: 20px;
-  position: relative;
-  bottom: 0px;
-}
-
-.stypor::after {
   content: "";
   display: block;
   height: 1px;
@@ -154,5 +122,27 @@
 .und-effect:hover:after {
   width: 100%;
   left: 0;
+}
+
+.imgabout {
+  margin-left: 60px;
+  margin-top: 80px;
+}
+
+@media (max-width: 450px) {
+  .fjaqlf {
+    font-size: 22px;
+  }
+
+  .fjaqlf::after {
+    width: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .imgabout {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
 }
 </style>

@@ -10,14 +10,14 @@
     <p data-aos="fade-right" class="descripcion">
       I'm a student of software engineer based in Buenos Aires, Argentina
       specializing in building (and occasionally designing) exceptional,
-      high-quality websites and applications.
+      modern websites and applications.
     </p>
 
     <v-btn data-aos="fade-right" class="btn-mail">
       <a
         style="text-decoration: none; color: #00ed81;"
         href="mailto:lauti.damore@gmail.com"
-      >Send my a mail</a>
+      >Send me a mail</a>
     </v-btn>
   </div>
 </template>

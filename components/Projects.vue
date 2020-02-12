@@ -2,129 +2,47 @@
   <div>
     <h3 data-aos="fade-right" class="stypor">Some projects that I create</h3>
     <v-layout wrap>
-      <v-flex xs12 md4 class="my-3">
-        <v-card class="mx-auto gIbvrW" max-width="344" outlined>
-          <v-list-item three-line>
-            <v-icon style="color: #00ed81; font-size: 35px;">folder_shared</v-icon>
-            <v-icon style="color: #00ed81; font-size: 30px; margin-left: 7em;">launch</v-icon>
-            <v-list-item-content>
-              <h2 style="color: rgb(153, 159, 176); padding: 8px 0px;">Some project</h2>
-              <v-list-item-subtitle
-                style="color: rgb(136, 146, 176);"
-              >Find out how we built a custom headless CMS with Node, Express, and Firebase for a client project at Upstatement</v-list-item-subtitle>
-              <ul class="kKWBdx">
-                <li style="margin: 0px 5px;">Node</li>
-                <li style="margin: 0px 5px;">Vue</li>
-                <li style="margin: 0px 5px;">Express</li>
-                <li style="margin: 0px 5px;">SCSS</li>
-              </ul>
-            </v-list-item-content>
-          </v-list-item>
-        </v-card>
-      </v-flex>
-      <v-flex xs12 md4 class="my-3">
-        <v-card class="mx-auto gIbvrW" max-width="344" outlined>
-          <v-list-item three-line>
-            <v-icon style="color: #00ed81; font-size: 35px;">folder_shared</v-icon>
-            <v-icon style="color: #00ed81; font-size: 30px; margin-left: 7em;">launch</v-icon>
-            <v-list-item-content>
-              <h2 style="color: rgb(153, 159, 176); padding: 8px 0px;">Some project</h2>
-              <v-list-item-subtitle
-                style="color: rgb(136, 146, 176);"
-              >Find out how we built a custom headless CMS with Node, Express, and Firebase for a client project at Upstatement</v-list-item-subtitle>
-              <ul class="kKWBdx">
-                <li style="margin: 0px 5px;">Node</li>
-                <li style="margin: 0px 5px;">Vue</li>
-                <li style="margin: 0px 5px;">Express</li>
-                <li style="margin: 0px 5px;">SCSS</li>
-              </ul>
-            </v-list-item-content>
-          </v-list-item>
-        </v-card>
-      </v-flex>
-      <v-flex xs12 md4 class="my-3">
-        <v-card class="mx-auto gIbvrW" max-width="344" outlined>
-          <v-list-item three-line>
-            <v-icon style="color: #00ed81; font-size: 35px;">folder_shared</v-icon>
-            <v-icon style="color: #00ed81; font-size: 30px; margin-left: 7em;">launch</v-icon>
-            <v-list-item-content>
-              <h2 style="color: rgb(153, 159, 176); padding: 8px 0px;">Some project</h2>
-              <v-list-item-subtitle
-                style="color: rgb(136, 146, 176);"
-              >Find out how we built a custom headless CMS with Node, Express, and Firebase for a client project at Upstatement</v-list-item-subtitle>
-              <ul class="kKWBdx">
-                <li style="margin: 0px 5px;">Node</li>
-                <li style="margin: 0px 5px;">Vue</li>
-                <li style="margin: 0px 5px;">Express</li>
-                <li style="margin: 0px 5px;">SCSS</li>
-              </ul>
-            </v-list-item-content>
-          </v-list-item>
-        </v-card>
-      </v-flex>
-      <v-flex xs12 md4 class="my-3">
-        <v-card class="mx-auto gIbvrW" max-width="344" outlined>
-          <v-list-item three-line>
-            <v-icon style="color: #00ed81; font-size: 35px;">folder_shared</v-icon>
-            <v-icon style="color: #00ed81; font-size: 30px; margin-left: 7em;">launch</v-icon>
-            <v-list-item-content>
-              <h2 style="color: rgb(153, 159, 176); padding: 8px 0px;">Some project</h2>
-              <v-list-item-subtitle
-                style="color: rgb(136, 146, 176);"
-              >Find out how we built a custom headless CMS with Node, Express, and Firebase for a client project at Upstatement</v-list-item-subtitle>
-              <ul class="kKWBdx">
-                <li style="margin: 0px 5px;">Node</li>
-                <li style="margin: 0px 5px;">Vue</li>
-                <li style="margin: 0px 5px;">Express</li>
-                <li style="margin: 0px 5px;">SCSS</li>
-              </ul>
-            </v-list-item-content>
-          </v-list-item>
-        </v-card>
-      </v-flex>
-      <v-flex xs12 md4 class="my-3">
-        <v-card class="mx-auto gIbvrW" max-width="344" outlined>
-          <v-list-item three-line>
-            <v-icon style="color: #00ed81; font-size: 35px;">folder_shared</v-icon>
-            <v-icon style="color: #00ed81; font-size: 30px; margin-left: 7em;">launch</v-icon>
-            <v-list-item-content>
-              <h2 style="color: rgb(153, 159, 176); padding: 8px 0px;">Some project</h2>
-              <v-list-item-subtitle
-                style="color: rgb(136, 146, 176);"
-              >Find out how we built a custom headless CMS with Node, Express, and Firebase for a client project at Upstatement</v-list-item-subtitle>
-              <ul class="kKWBdx">
-                <li style="margin: 0px 5px;">Node</li>
-                <li style="margin: 0px 5px;">Vue</li>
-                <li style="margin: 0px 5px;">Express</li>
-                <li style="margin: 0px 5px;">SCSS</li>
-              </ul>
-            </v-list-item-content>
-          </v-list-item>
-        </v-card>
-      </v-flex>
-      <v-flex xs12 md4 class="my-3">
-        <v-card class="mx-auto gIbvrW" max-width="344" outlined>
-          <v-list-item three-line>
-            <v-icon style="color: #00ed81; font-size: 35px;">folder_shared</v-icon>
-            <v-icon style="color: #00ed81; font-size: 30px; margin-left: 7em;">launch</v-icon>
-            <v-list-item-content>
-              <h2 style="color: rgb(153, 159, 176); padding: 8px 0px;">Some project</h2>
-              <v-list-item-subtitle
-                style="color: rgb(136, 146, 176);"
-              >Find out how we built a custom headless CMS with Node, Express, and Firebase for a client project at Upstatement</v-list-item-subtitle>
-              <ul class="kKWBdx">
-                <li style="margin: 0px 5px;">Node</li>
-                <li style="margin: 0px 5px;">Vue</li>
-                <li style="margin: 0px 5px;">Express</li>
-                <li style="margin: 0px 5px;">SCSS</li>
-              </ul>
-            </v-list-item-content>
-          </v-list-item>
-        </v-card>
+      <v-flex xs12 md4 class="my-3" v-for="project in projects" :key="project.title">
+        <project :project="project"></project>
       </v-flex>
     </v-layout>
   </div>
 </template>
+
+<script>
+import Project from "~/components/projects/Project.vue";
+
+export default {
+  components: { Project },
+  data() {
+    return {
+      projects: [
+        {
+          title: "Portfolio",
+          description:
+            "Portfolio of me, build in the Vue SSR framework Nuxt. Deployed with nginx at Digital Ocean.",
+          link: "https://github.com/Lautarodamore/Portfolio",
+          languajes: ["Nuxt", "Vue", "nginx"]
+        },
+        {
+          title: "BlackList",
+          description:
+            "This project is basically a 'blacklist' where each user can register the money that people owe them.",
+          link: "https://github.com/Lautarodamore/BlackList",
+          languajes: ["Node", "Vue", "Express", "MongoDB"]
+        },
+        {
+          title: "Product Manager",
+          description:
+            "Challenge designed with my coworkers to improve our skills and practice. It is a CRUD of Products.",
+          link: "https://github.com/Lautarodamore/Product-Manager",
+          languajes: ["Node", "Vue", "Express", "TypeScript", "Jest"]
+        }
+      ]
+    };
+  }
+};
+</script>
 
 <style >
 .stypor {
@@ -176,5 +94,15 @@
   padding: 25px 0px 0px 0px;
   margin: 20px 0px 0px;
   list-style: none;
+}
+
+@media (max-width: 450px) {
+  .stypor {
+    font-size: 22px;
+  }
+
+  .stypor::after {
+    width: 0px;
+  }
 }
 </style>

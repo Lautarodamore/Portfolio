@@ -2,56 +2,95 @@
   <div>
     <h3 data-aos="fade-right" class="stywork">Where I've Worked</h3>
     <v-layout wrap>
-      <v-flex xs12 md10>
-        <v-card>
-          <v-toolbar flat color="#212121" dark>
-            <v-toolbar-title>
-              <span style="color:#00ed81;">Experiencie</span>
-            </v-toolbar-title>
-          </v-toolbar>
-          <v-tabs vertical>
-            <v-tab>
-              <v-icon left>mdi-account</v-icon>
-              <span style="color:#00ed81;">Luxsys</span>
-            </v-tab>
+      <v-flex xs12 md8>
+        <div data-aos="fade-left">
+          <v-card>
+            <v-toolbar flat color="#212121" dark>
+              <v-toolbar-title>
+                <span style="color:#00ed81;">Experiencie</span>
+              </v-toolbar-title>
+            </v-toolbar>
+            <v-tabs vertical>
+              <v-tab>
+                <span class="explist">Luxsys</span>
+              </v-tab>
 
-            <v-tab>
-              <v-icon left>mdi-access-point</v-icon>
-              <span style="color:#00ed81;">Freelance</span>
-            </v-tab>
+              <v-tab>
+                <span class="explist">Freelance</span>
+              </v-tab>
 
-            <v-tab-item>
-              <v-card flat>
-                <v-card-text>
-                  <p>Sed aliquam ultrices mauris. Donec posuere vulputate arcu. Morbi ac felis. Etiam feugiat lorem non metus. Sed a libero.</p>
-
-                  <p>Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Aliquam lobortis. Aliquam lobortis. Suspendisse non nisl sit amet velit hendrerit rutrum.</p>
-
-                  <p
-                    class="mb-0"
-                  >Phasellus dolor. Fusce neque. Fusce fermentum odio nec arcu. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam. Phasellus blandit leo ut odio.</p>
-                </v-card-text>
-              </v-card>
-            </v-tab-item>
-            <v-tab-item>
-              <v-card flat>
-                <v-card-text>
-                  <p>Fusce a quam. Phasellus nec sem in justo pellentesque facilisis. Nam eget dui. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. In dui magna, posuere eget, vestibulum et, tempor auctor, justo.</p>
-
-                  <p
-                    class="mb-0"
-                  >Cras sagittis. Phasellus nec sem in justo pellentesque facilisis. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nam at tortor in tellus interdum sagittis.</p>
-                </v-card-text>
-              </v-card>
-            </v-tab-item>
-          </v-tabs>
-        </v-card>
+              <v-tab-item>
+                <v-card flat>
+                  <v-card-text>
+                    <ul class="bbgkCk">
+                      <li class="gbWQpd">Full Stack Developer using ASP.NET Web Form and MVC5.</li>
+                      <li class="gbWQpd">Management of SQL Server database.</li>
+                      <li
+                        class="gbWQpd"
+                      >Active participation in the definition of business processes.</li>
+                    </ul>
+                  </v-card-text>
+                </v-card>
+              </v-tab-item>
+              <v-tab-item>
+                <v-card flat>
+                  <v-card-text>
+                    <ul class="bbgkCk">
+                      <li
+                        class="gbWQpd"
+                      >Creating websites and applications for (momentarily) people close, to improve my skills</li>
+                      <li
+                        class="gbWQpd"
+                      >Using tools like NodeJS, TypeScript, Vue.JS, Docker, MongoDB, PostgresSQL.</li>
+                      <li class="gbWQpd">Creating personal projects to practice and improve myself.</li>
+                    </ul>
+                  </v-card-text>
+                </v-card>
+              </v-tab-item>
+            </v-tabs>
+          </v-card>
+        </div>
+      </v-flex>
+      <v-flex xs12 md5 lg4>
+        <div data-aos="fade-left" class="imgabout">
+          <img src="~/assets/work.svg" alt="Avatar" style="max-width: 250px" />
+        </div>
       </v-flex>
     </v-layout>
   </div>
 </template>
 
 <style>
+.explist {
+  color: #00ed81;
+  text-transform: none;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.bbgkCk {
+  overflow: hidden;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  list-style: none;
+}
+
+.gbWQpd {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.gbWQpd::before {
+  content: "ϟ";
+  position: absolute;
+  left: 0px;
+  color: #00ed81;
+  font-size: 14px;
+  line-height: 12px;
+}
+
 .stywork {
   position: relative;
   display: flex;
@@ -82,5 +121,14 @@
   position: relative;
   top: 0px;
   margin-left: 20px;
+}
+
+@media (max-width: 450px) {
+  .stywork {
+    font-size: 22px;
+  }
+  .stywork::after {
+    width: 0px;
+  }
 }
 </style>
